@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #f8f9fa; */
+}
+body {
+    background-color: #f8f9fa;
+}
+
+/* start navbar section  */
+
+nav {
+    /* box-shadow: 0px 0px 5px -2px black; */
+    width: 100%;
+    z-index: 2000000000000;
+    box-shadow: 0 4px 8px 0 rgba(143, 142, 142, 0.2);
+    font-family: cursive;
+    position: fixed !important;
+    padding: 0px 13% !important;
+    z-index: 2000000;
+}
+
+.navbar-brand{
+    /* margin-left: 145px; */
+    font-size: 26px !important;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+/* 
+.navbar-collapse {
+    margin-left: 340px;
+} */
+
+.nav-link {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.feedback {
+    background-color: #183153;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.feedback:hover {
+    color: #fff;
+    background-color: #2e5a98;
+}
+
+/* end navbar section  */
+
+/* start header section  */
+
+/* .header {
+    margin-top: 75px;
+    padding-top: 30px;
+} */
+
+.left-header h5 {
+    line-height: 1.8;
+    font-size: 20px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.header-title{
+    color: #172ab5;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.header img {
+    width: 180px;
+}
+
+.left-header {
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .left-header h5 {
+        line-height: 1.5;
+        font-size: 16px;
+        margin-bottom: 17px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .header-title{
+        color: #172ab5;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    .header img {
+        width: 140px;
+    }
+    .left-header {
+        padding-left: 12%;
+        padding-top: 10%;
+    }
+}
+
+/* end header section  */
+
+/* start intro section  */
+
+.intro {
+    width: 100%;
+    padding: 4% 0px;
+    background: linear-gradient(to right, #4231ed, #8720e5);
+}
+
+.intro h3 {
+    font-family: cursive;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 46px !important;
+    margin-top: 20px !important;
+}
+
+.intro img {
+    width: 18%;
+}
+
+@media only screen and (min-width:576px) and (max-width: 768px) {
+    .intro h3 {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 576px ) {
+    .intro h3 {
+        font-size: 25px !important;
+    }
+}
+
+/* end intro section  */
+
+/* start cards style  */
+
+.cards {
+    margin-top: 12%;
+    /* height: 170px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cards h3, .cards h6, .cards i  {
+    line-height: 1.7;
+}
+
+.icons {
+    font-size: 40px !important;
+    margin-bottom: 20px;
+    color: #294a67;
+}
+
+
+/* end cards style  */
+
+/* start new age section style  */
+
+
+
+.newAge h2 {
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.newAge h6 {
+    line-height: 1.6;
+    font-size: 19px;
+}
+
+.rounded-circle {
+    margin-left: 6rem !important;
+}
+
+@media only screen and (max-width:768px) {
+    .newAge h2, .newAge h6 {
+        padding-left: 1rem !important;
+    }
+    
+}
+
+
+/* end new age section style  */
+
+/* start Downloading section style  */
+
+/* .Download {
+    background-image: url(../img/photo-1620912189865-1e8a33da4c5e.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.Download:hover {
+    background: url(../img/photo-1620912189865-1e8a33da4c5e.jpeg), rgba(0, 0, 0, 0.474) ;
+
+} */
+
+.Download {
+    height: 500px;
+    /* z-index: -10000; */
+    background-image: url(../img/photo-1620912189865-1e8a33da4c5e.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+.Download:hover .overlay {
+    opacity: 0.4;
+}
+
+.Download .btn {
+    z-index: 200000;
+}
+@media only screen and (max-width: 768px) {
+    .Download {
+        background-position: center;
+    }
+}
+
+/* end Downloading section style  */
+
+/* start Get the app section style */
+
+.getApp {
+    width: 100%;
+    padding: 4% 0px;
+    background: linear-gradient(to right, #4231ed, #8720e5);
+}
+
+.getApp img {
+    width: 180px;
+}
+
+/* end Get the app section style */
+
+/* start copyrights section style  */
+
+.copyRight {
+    background-color: #000;
+}
+
+/* end copyrights section style  */
